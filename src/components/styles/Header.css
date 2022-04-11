@@ -1,0 +1,162 @@
+
+.headerSection{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+.amazonDiv{
+    max-height: 40px;
+    height: 100%
+}
+.amazonLogo{
+    padding: 0.5rem;
+    width: 120px;
+    height: 80px;
+    margin-left: .6rem;
+}
+/* .amazonLogo:hover{
+    margin: 5px 0;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 0 5px;
+} */
+/*location*/
+.headerMainLocation{
+    padding: 1rem;
+    
+    /* border: 2px solid yellow;
+    margin: 10px; */
+}
+/* .headerLocation:hover{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 0 5px;
+} */
+.headerMainLocation p{
+    font-size: 12px;
+    color: rgb(196, 194, 194);
+    margin-left: 1.4rem;
+}
+.headerMainLocation h4{
+    color: white;
+}
+.headerLocation{
+    display: flex;
+}
+.locationIcon{
+    color: white;
+    margin-right: 5px;
+}
+/* search*/
+.headerMainSearch{
+    display: flex;
+    margin-top: 12px;
+    max-height: 40px;
+    height: 100%;
+    
+}
+/* .headerMainSearch:focus-within{
+    border: 3px solid rgb(231, 163, 36);
+    border-radius:5px 5px ;
+    
+} */
+.downArrowSection{
+    display: flex;
+   background-color: rgb(239, 243, 243);
+   justify-content: center;
+   align-items: center;
+   padding: 0 .48rem;
+   border-radius:5px 0 0 5px ;
+   cursor: pointer;
+}
+.arrowDropDown, .downArrowSection p {
+    color: black;
+}
+.searchInput{
+    display: flex;
+    width: 100%;
+}
+input{
+    width: 650px;
+    height: 40px;
+    color: rgb(62, 62, 63);
+    line-height: 15px;
+    outline: none;
+}
+
+input:focus{
+    border: 3px solid rgb(231, 163, 36);
+
+}
+
+.searcIconSection{
+    background-color: rgb(231, 163, 36);
+    justify-content: center;
+    align-items: center;
+    padding: .48rem .8rem;
+    border-radius:0px 5px 5px 0px ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.searchIcon{
+    color: black;
+}
+/*Uae icon*/
+.uaeIconSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 .48rem;
+    border-radius:5px 0 0 5px ;
+    cursor: pointer;
+    margin: 0 5px;
+
+}
+/* .uaeIconSection:hover{
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: 0;
+} */
+.arrowDropDownUae{
+    color: white;
+}
+.useIcon{
+    padding: 0.2rem;
+    width: 30px;
+    height: 40px;
+    position: static;
+}
+/* signin*/
+.signInHome{
+    margin-top: 8px;
+    max-height: 40px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.signInHome p ,h4{
+    color: white;
+}
+.signInIcon{
+    display: flex;
+    margin-right: 10px;
+}
+/* Cart section*/
+.cartSection{
+    display: flex;
+    margin-top: 8px;
+    max-height: 40px;
+    height: 100%;
+    align-items: center; 
+    padding: 1rem;
+    justify-content: center;
+    padding: 1rem;
+}
+.cartIcon{
+    color: white;
+    margin-right: 2px;
+}
+.cartSection h4{
+    margin-top: 10px;
+}

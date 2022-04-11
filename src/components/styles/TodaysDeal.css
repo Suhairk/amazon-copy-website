@@ -1,0 +1,8 @@
+
+.todaysDealMainConatainer{
+    display: block;
+}
+.todaysDealMainConatainer h1{
+    font-size: 50px;
+    color: yellowgreen;
+}

@@ -1,0 +1,68 @@
+.NavbarSection{
+    display: flex;
+    background-color: rgba(3, 26, 44, 0.87);
+}
+.navigationContainer{
+    padding: .5rem;
+}
+
+.navigationContainer ul{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    margin-left: 5px;
+    
+}
+.navigationContainer ul li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(247, 238, 238);
+    margin: 0 6px;
+    cursor: pointer;
+    transition: none;
+}
+/* .navigationContainer ul li:hover{
+    border: 2px solid white;
+    float: none;
+} */
+.allMenu{
+    display: flex;
+    align-items: center; 
+}
+.allMenu li.allBold{
+    font-weight: 1000
+}
+.barIcon{
+    color: white;
+    margin-right: 2px;
+}
+.primeIcon{
+    display: flex;
+}
+
+/*next navighation*/
+.navRightIconMain{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    /* margin-top: 12px;
+    max-height: 50px;
+    height: 100%; */
+}
+/* .navRightIconMain:hover{
+    border: 2px solid white;
+} */
+.navRightIcons{
+    display: flex;
+    align-items: center;
+    margin: 0 8px;
+}
+.navRightIcons p {
+    color: rgb(247, 238, 238);
+    font-size: 14px;
+}
+.shipIcons{
+    color: white;
+    margin: 0 5px;
+}
