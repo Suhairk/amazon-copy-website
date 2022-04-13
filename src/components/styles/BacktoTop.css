@@ -1,0 +1,16 @@
+
+.backTop{
+    background-color: rgba(0, 7, 87, 0.705);
+    margin: 0 20px;
+}
+
+.backTopConatiner{
+    padding: 10px;
+    text-align: center;
+    
+}
+.backTopConatiner a{
+    color: aliceblue;
+    font-size: 15px;
+    text-decoration: none;
+}

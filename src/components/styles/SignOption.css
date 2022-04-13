@@ -1,0 +1,37 @@
+
+
+.signOptionMainConatiner{
+ 
+    background-color: white;    
+    padding: 20px 20px;
+    margin: 10px 20px;
+}
+
+.signOption{
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+.signOption p{
+    font-size: 12px;
+    
+}
+button{
+    width: 15%;
+    padding: 4px;
+    background-color: rgb(235, 194, 84);
+    border: none;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 5px;
+}
+.signinButton {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 12px;
+}
+.signinButton a{
+    text-decoration: none;
+    color: rgb(26, 230, 230);
+}
