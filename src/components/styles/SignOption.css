@@ -4,7 +4,9 @@
  
     background-color: white;    
     padding: 20px 20px;
-    margin: 10px 20px;
+    margin: 0px 20px;
+    margin-top: 10px;
+    
 }
 
 .signOption{
@@ -19,7 +21,7 @@
 button{
     width: 15%;
     padding: 4px;
-    background-color: rgb(235, 194, 84);
+    background-color: rgb(243, 186, 29);
     border: none;
     cursor: pointer;
     margin: auto;
@@ -33,5 +35,5 @@ button{
 }
 .signinButton a{
     text-decoration: none;
-    color: rgb(26, 230, 230);
+    color: #007185
 }

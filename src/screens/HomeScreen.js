@@ -9,6 +9,7 @@ import GiftandOffers2 from '../components/GiftandOffers2'
 import SignOption from '../components/SignOption'
 import Footer from '../components/Footer'
 import BacktoTop from '../components/BacktoTop'
+import Advertise from '../components/Advertise'
 function HomeScreen() {
   return (
     <div className='homeScreen'>
@@ -23,6 +24,7 @@ function HomeScreen() {
     <SignOption/>
     <BacktoTop/>
     <Footer/>
+    <Advertise/>
     </div>
     
   )

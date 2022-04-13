@@ -4,50 +4,42 @@ function Footer() {
   return (
     <div className='footerClass'>
         <div className='firstSection'>
-            <div className='footerTitle'>
-            <h4>Get to Know Us</h4>
-            </div>
             <ul>
-                <li>About Amazon</li>
-                <li>Careers</li>
-                <li> Amazon Science</li>
+            <li className='listHeader'>Get to Know Us</li>
+                <a href='#'><li>About Amazon</li></a>
+                <a href='#'><li>Careers</li></a>
+                <a href='#'><li> Amazon Science</li></a>
             </ul>
         </div>
 
         <div className='firstSection'>
-            <div className='footerTitle'>
-            <h4>Shop with Us</h4>
-            </div>
             <ul>
-                <li>Your Account</li>
-                <li>Your Orders</li>
-                <li>Your Addresses</li>
-                <li> Your List </li>
+                <li className='listHeader'>Shop with Us</li>
+                <a href='#'><li>Your Account</li></a>
+                <a href='#'><li>Your Orders</li></a>
+                <a href='#'><li>Your Addresses</li></a>
+                <a href='#'> <li> Your List </li></a>
             </ul>
         </div>
 
         <div className='firstSection'>
-            <div className='footerTitle'>
-            <h4>Make Money with Us</h4>
-            </div>
             <ul>
-                <li>Sell on Amazon</li>
-                <li>Fulfillment by Amazon</li>
-                <li> Become an Affiliate</li>
-                <li>Advertise Your Products</li>
+                <li className='listHeader'>Make Money with Us</li>
+                <a href='#'><li>Sell on Amazon</li></a>
+                <a href='#'><li>Fulfillment by Amazon</li></a>
+                <a href='#'><li> Become an Affiliate</li></a>
+                <a href='#'><li>Advertise Your Products</li></a>
             </ul>
         </div>
 
         <div className='firstSection'>
-            <div className='footerTitle'>
-            <h4>Let Us Help You</h4>
-            </div>
             <ul>
-                <li>Help</li>
-                <li>COVID-19 and Amazon</li>
-                <li>Shipping & Delivery</li>
-                <li>Returns & Replacements</li>
-                <li>Amazon App Download</li>
+                <li className='listHeader'>Let Us Help You</li>
+                <a href='#'><li>Help</li></a>
+                <a href='#'><li>COVID-19 and Amazon</li></a>
+                <a href='#'><li>Shipping & Delivery</li></a>
+                <a href='#'><li>Returns & Replacements</li></a>
+                <a href='#'><li>Amazon App Download</li></a>
             </ul>
         </div>
     </div>
