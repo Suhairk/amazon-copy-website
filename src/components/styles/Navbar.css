@@ -1,6 +1,12 @@
 .NavbarSection{
     display: flex;
     background-color: rgba(3, 26, 44, 0.87);
+    position: relative;
+    height: auto;
+}
+.sideBarContainer{
+    position: absolute;
+    bottom: 0;
 }
 .navigationContainer{
     padding: .5rem;
@@ -35,10 +41,11 @@
 }
 .barIcon{
     color: white;
-    margin-right: 2px;
+    cursor: pointer;
 }
 .primeIcon{
     display: flex;
+    cursor: pointer;
 }
 
 /*next navighation*/
@@ -49,6 +56,7 @@
     /* margin-top: 12px;
     max-height: 50px;
     height: 100%; */
+    cursor: pointer;
 }
 /* .navRightIconMain:hover{
     border: 2px solid white;

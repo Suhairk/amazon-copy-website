@@ -7,6 +7,7 @@
       CAROUSAL_4 : require('../assets/c4.jpg'),
       CAROUSAL_5 : require('../assets/c5.jpg'),
       CAROUSAL_6 : require('../assets/c6.jpg'),
+      CAROUSAL_7 : require('../assets/c7.jpg'),
 
       AIRFRYERS : require('../assets/offers/airfryers.jpg'),
       APPLIANCE_STORE : require('../assets/offers/appliancestore.jpg'),

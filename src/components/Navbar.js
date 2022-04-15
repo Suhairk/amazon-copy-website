@@ -1,19 +1,25 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './styles/Navbar.css'
 import { FaBars } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { MdOutlineLocalShipping } from "react-icons/md";
 import { IoReturnUpBackOutline } from "react-icons/io5";
 import { BsCashStack } from "react-icons/bs";
-function Navbar() {
+import {Link} from 'react-router-dom'
+import SideBar from './SideBar';
+function Navbar({showSideBar}) {
+
   return (
     <div className='NavbarSection'>
       <nav className='navigationContainer'>
         <ul className='navigationElements'>
+          {/* <Link to="/all"> */}
           <div className='allMenu'>
-            <FaBars size={18} className="barIcon"/>
+            <FaBars size={18} className="barIcon"  
+            onClick={showSideBar}/>
           <li className='allBold'>All</li>
           </div>
+          {/* </Link> */}
           
           <li>Sell</li>
           <li>Best Seller</li>

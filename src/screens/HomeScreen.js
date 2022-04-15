@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import GiftandOffers from '../components/GiftandOffers'
 import Header from '../components/Header'
 import Navbar from '../components/Navbar'
@@ -10,11 +10,15 @@ import SignOption from '../components/SignOption'
 import Footer from '../components/Footer'
 import BacktoTop from '../components/BacktoTop'
 import Advertise from '../components/Advertise'
+import SideBar from '../components/SideBar'
 function HomeScreen() {
+  const [sideBar,setsideBar]  = useState(false);
+  const  showSideBar =() => setsideBar(!sideBar)
   return (
     <div className='homeScreen'>
     <Header/>
-    <Navbar/>
+    <Navbar showSideBar= {showSideBar}/>
+    <SideBar sideBar = {sideBar} showSideBar={showSideBar}/>
     <GiftandOffers/>
     <GiftandOffers2/>
     <TodaysDeal/>

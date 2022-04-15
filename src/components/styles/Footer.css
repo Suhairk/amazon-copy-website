@@ -27,7 +27,7 @@
 .firstSection ul{
     list-style: none;
 }
-a{
+.firstSection ul li a{
     text-decoration: none;
     color: rgb(175, 175, 175);
 }

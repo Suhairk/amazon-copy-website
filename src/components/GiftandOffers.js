@@ -14,7 +14,7 @@ function GiftandOffers() {
       <div className='giftandOfffers'>
         <div className='giftOffersMainContainer'>
             <div className='carousel'>
-        <Carousel autoPlay={false}
+        <Carousel autoPlay={true}
         showStatus = {false}
         showThumbs = {false} 
         showIndicators= {false} 
@@ -37,6 +37,9 @@ function GiftandOffers() {
             </div>
             <div>
                 <img src={IMAGES.CAROUSAL_6}></img>
+            </div>
+            <div>
+                <img src={IMAGES.CAROUSAL_7}></img>
             </div>
         </Carousel>
         </div>
