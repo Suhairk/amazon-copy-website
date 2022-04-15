@@ -4,7 +4,7 @@ import '../components/styles/SideBar.css'
 import { sideBardata } from '../constants/SIDEBAR'
 import { IconContext } from 'react-icons';
 import { FaUserTie } from "react-icons/fa";
-import { AiOutlineClose  } from "react-icons/ai";
+import { AiOutlineCloseCircle  } from "react-icons/ai";
 
 function SideBar({sideBar,showSideBar}) {
     console.log("side bar is " , sideBar)
@@ -15,11 +15,11 @@ function SideBar({sideBar,showSideBar}) {
             <ul className='sideBarNavigationList'>
                 <div className='headerSideBar'>
                 <FaUserTie size={25} className="userLogo"/>
-                <span>Hello, Sign in</span>
+                <span>Hello, Sign in
+                <AiOutlineCloseCircle size={28} className = "closeIcon" onClick={showSideBar} style={{color:"white"}} />
+                </span>
                 </div>
-                <div className = "closeIcon">
-                <AiOutlineClose size={25} onClick={showSideBar} style={{color:"red"}} />
-                </div>
+                
                 {sideBardata.map((itr, id)=>{  
                     return(
                         <li key={id} className = {itr.cName}>

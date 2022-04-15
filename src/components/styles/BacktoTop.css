@@ -13,4 +13,11 @@
     color: aliceblue;
     font-size: 15px;
     text-decoration: none;
+    font-weight: bold;
+    text-decoration: solid;
+    transition: 2s ease;
+}
+.backTopConatiner a:hover{
+    color: rgb(146, 147, 150);
+   
 }

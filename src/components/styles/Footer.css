@@ -27,12 +27,12 @@
 .firstSection ul{
     list-style: none;
 }
-.firstSection ul li a{
+.firstSection a{
     text-decoration: none;
-    color: rgb(175, 175, 175);
+    color: rgb(175, 175, 175) !important;
 }
 .listHeader{
     font-size: 18px;
     font-weight: bold;
-    color: rgb(219, 219, 219);
+    color: rgb(219, 219, 219) ;
 }

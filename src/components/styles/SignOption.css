@@ -18,14 +18,16 @@
     font-size: 12px;
     
 }
-button{
+
+.btn{
     width: 15%;
-    padding: 4px;
-    background-color: rgb(243, 186, 29);
+    padding: 2px;
     border: none;
     cursor: pointer;
     margin: auto;
-    border-radius: 5px;
+    color: black !important;
+    font-weight: bold !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .signinButton {
     justify-content: center;
