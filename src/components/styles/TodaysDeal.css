@@ -13,9 +13,10 @@
 .carousalContainer{
     text-align: center;
     cursor: pointer;
-    
 }
-
+.carousalContainer h3{
+    font-size: 18px!important;
+}
 .todaysOfferImage{
     width: auto;
     height: auto;

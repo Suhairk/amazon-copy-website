@@ -27,6 +27,11 @@ function GiftandOffers() {
                 <img src={IMAGES.CAROUSAL_2}></img>
             </div>
             <div>
+            <video width="100%" height="100%" controls >
+                <source src={IMAGES.CAROUSAL_8} type="video/mp4"/>
+            </video>
+            </div>
+            <div>
                 <img src={IMAGES.CAROUSAL_3}></img>
             </div>
             <div>
