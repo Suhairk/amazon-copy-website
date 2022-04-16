@@ -48,7 +48,7 @@ function GiftandOffers() {
             </div>
         </Carousel>
         </div>
-        <div className='giftOffersSubContainer'>
+        <div className='giftOffersSubContainer col-12 col-md-12'>
             <div className='firstContainer'>
             <div className='thirdContainerText'>
                 <h4>0% installments* | Up to 40% off Appliances</h4>
