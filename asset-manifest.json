@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/amazon-copy-website/static/css/main.152fd801.css",
+    "main.js": "/amazon-copy-website/static/js/main.be189eae.js",
+    "static/js/787.c075ba41.chunk.js": "/amazon-copy-website/static/js/787.c075ba41.chunk.js",
+    "static/media/video.mp4": "/amazon-copy-website/static/media/video.24152686680e06e13474.mp4",
+    "static/media/c2.jpg": "/amazon-copy-website/static/media/c2.30ec5dddf3634b5bff29.jpg",
+    "static/media/c3.jpg": "/amazon-copy-website/static/media/c3.4ad5f6af674c02ad757b.jpg",
+    "static/media/c4.jpg": "/amazon-copy-website/static/media/c4.9aec0e5297cd9548a736.jpg",
+    "static/media/c7.jpg": "/amazon-copy-website/static/media/c7.f53d9c1fca4d3596a48b.jpg",
+    "static/media/body.jpg": "/amazon-copy-website/static/media/body.a99e1de3016d3615f99c.jpg",
+    "static/media/c5.jpg": "/amazon-copy-website/static/media/c5.35aabf413c8e5aa2cd25.jpg",
+    "static/media/c6.jpg": "/amazon-copy-website/static/media/c6.ae8bb1db6edb98078939.jpg",
+    "static/media/amazon.png": "/amazon-copy-website/static/media/amazon.5654b2f7f26b64b547e9.png",
+    "static/media/shopenow.jpg": "/amazon-copy-website/static/media/shopenow.bc524e57184a972226ee.jpg",
+    "static/media/item1.jpg": "/amazon-copy-website/static/media/item1.d889334dece040d676f6.jpg",
+    "static/media/item16.jpg": "/amazon-copy-website/static/media/item16.f90c0d41d66bce3a3880.jpg",
+    "static/media/item20.jpg": "/amazon-copy-website/static/media/item20.7ead389e9e8ad94e5fb5.jpg",
+    "static/media/item8.jpg": "/amazon-copy-website/static/media/item8.d0d373f4b266d6dddf3d.jpg",
+    "static/media/item12.jpg": "/amazon-copy-website/static/media/item12.6f5e899488ac3674fdf3.jpg",
+    "static/media/item13.jpg": "/amazon-copy-website/static/media/item13.6f5e899488ac3674fdf3.jpg",
+    "static/media/item14.jpg": "/amazon-copy-website/static/media/item14.6f5e899488ac3674fdf3.jpg",
+    "static/media/item15.jpg": "/amazon-copy-website/static/media/item15.6f5e899488ac3674fdf3.jpg",
+    "index.html": "/amazon-copy-website/index.html",
+    "main.152fd801.css.map": "/amazon-copy-website/static/css/main.152fd801.css.map",
+    "main.be189eae.js.map": "/amazon-copy-website/static/js/main.be189eae.js.map",
+    "787.c075ba41.chunk.js.map": "/amazon-copy-website/static/js/787.c075ba41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.152fd801.css",
+    "static/js/main.be189eae.js"
+  ]
+}
