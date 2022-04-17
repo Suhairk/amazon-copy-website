@@ -25,6 +25,9 @@ function HomeScreen() {
     <HealthBeauty/>
     <TodaysDeal/>
     <GiftandOffers2/>
+    <TodaysDeal/>
+    <GiftandOffers2/>
+    <HealthBeauty/>
     <SignOption/>
     <BacktoTop/>
     <Footer/>
