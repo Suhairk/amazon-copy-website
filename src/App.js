@@ -1,7 +1,7 @@
 import './App.css';
 import HomeScreen from './screens/HomeScreen';
 import { HashRouter  as Router, Routes, Route } from 'react-router-dom';
-import SignOption from './components/SignOption';// in new version swich replaced by Routes
+// in new version swich replaced by Routes
 import SideBar from './components/SideBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {

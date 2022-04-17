@@ -2,6 +2,7 @@
     position: absolute;
     overflow: hidden;
     z-index: 3;
+    
 }
 .headerSideBar{
     display: flex;
@@ -28,7 +29,12 @@
     margin-left: 3rem;
     cursor: pointer;
 }
-
+.list{
+    width: 80%;
+    height: 600px;
+    overflow-y: scroll;
+    float: left;
+}
 .sideBarNavigation{
     background-color: white;
     width: calc(100% + 25%);
@@ -48,6 +54,7 @@
     flex-direction: column;
     padding: 0 0px;
     width: 100%;
+    
 }
 .sidebar-text{
     display: flex;

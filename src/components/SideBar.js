@@ -19,8 +19,8 @@ function SideBar({sideBar,showSideBar}) {
                 <AiOutlineCloseCircle size={28} className = "closeIcon" onClick={showSideBar} style={{color:"white"}} />
                 </span>
                 </div>
-                
-                {sideBardata.map((itr, id)=>{  
+               <div className='list'>
+               {sideBardata.map((itr, id)=>{  
                     return(
                         <li key={id} className = {itr.cName}>
                         <Link to={itr.path}>
@@ -30,6 +30,8 @@ function SideBar({sideBar,showSideBar}) {
                         </li>
                     )
                 })}
+               </div>
+                
                 
             </ul>
         </nav>

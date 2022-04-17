@@ -15,7 +15,7 @@ function HomeScreen() {
   const [sideBar,setsideBar]  = useState(false);
   const  showSideBar =() => setsideBar(!sideBar)
   return (
-    <div className='homeScreen'>
+    <div className= 'homeScreen'>
     <Header/>
     <Navbar showSideBar= {showSideBar}/>
     <SideBar sideBar = {sideBar} showSideBar={showSideBar}/>
