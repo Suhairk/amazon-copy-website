@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/amazon-copy-website/static/css/main.83636935.css",
+    "main.css": "/amazon-copy-website/static/css/main.4b376ba4.css",
     "main.js": "/amazon-copy-website/static/js/main.045ba3f5.js",
     "static/js/787.c075ba41.chunk.js": "/amazon-copy-website/static/js/787.c075ba41.chunk.js",
     "static/media/video.mp4": "/amazon-copy-website/static/media/video.24152686680e06e13474.mp4",
@@ -22,12 +22,12 @@
     "static/media/item14.jpg": "/amazon-copy-website/static/media/item14.6f5e899488ac3674fdf3.jpg",
     "static/media/item15.jpg": "/amazon-copy-website/static/media/item15.6f5e899488ac3674fdf3.jpg",
     "index.html": "/amazon-copy-website/index.html",
-    "main.83636935.css.map": "/amazon-copy-website/static/css/main.83636935.css.map",
+    "main.4b376ba4.css.map": "/amazon-copy-website/static/css/main.4b376ba4.css.map",
     "main.045ba3f5.js.map": "/amazon-copy-website/static/js/main.045ba3f5.js.map",
     "787.c075ba41.chunk.js.map": "/amazon-copy-website/static/js/787.c075ba41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83636935.css",
+    "static/css/main.4b376ba4.css",
     "static/js/main.045ba3f5.js"
   ]
 }
